@@ -1,0 +1,156 @@
+{
+  "title_zh": "节点与格点",
+  "indoor_window": {
+    "start": "2026-08-03T12:00:00+08:00",
+    "end": "2026-08-03T12:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "n_cycles": 181
+  },
+  "outdoor_window": {
+    "start": "2026-08-03T00:00",
+    "end": "2026-08-09T23:00",
+    "timezone": "Asia/Shanghai",
+    "n_hours": 168
+  },
+  "overlap_hour": "2026-08-03T12:00",
+  "indoor_stats": {
+    "temperature": {
+      "n": 181,
+      "min": 26.18,
+      "max": 27.02,
+      "mean": 26.598,
+      "median": 26.59,
+      "std": 0.248,
+      "span": 0.84,
+      "first5min_mean": 26.768,
+      "last5min_mean": 26.426
+    },
+    "relative_humidity": {
+      "n": 181,
+      "min": 45.46,
+      "max": 48.53,
+      "mean": 47.014,
+      "median": 46.93,
+      "std": 0.89,
+      "span": 3.07,
+      "first5min_mean": 46.448,
+      "last5min_mean": 47.535
+    },
+    "pressure": {
+      "n": 181,
+      "min": 852.58,
+      "max": 852.8,
+      "mean": 852.7,
+      "median": 852.71,
+      "std": 0.051,
+      "span": 0.22,
+      "first5min_mean": 852.643,
+      "last5min_mean": 852.652
+    },
+    "illuminance": {
+      "n": 181,
+      "min": 233.8,
+      "max": 327.9,
+      "mean": 280.455,
+      "median": 280.7,
+      "std": 28.403,
+      "span": 94.1,
+      "first5min_mean": 308.223,
+      "last5min_mean": 252.25
+    },
+    "gas_index": {
+      "n": 181,
+      "min": 22.08,
+      "max": 30.77,
+      "mean": 26.386,
+      "median": 26.61,
+      "std": 2.376,
+      "span": 8.69,
+      "first5min_mean": 27.922,
+      "last5min_mean": 24.963
+    },
+    "gas_adc": {
+      "n": 181,
+      "min": 1425.0,
+      "max": 1532.0,
+      "mean": 1479.928,
+      "median": 1481.0,
+      "std": 29.566,
+      "span": 107.0,
+      "first5min_mean": 1499.133,
+      "last5min_mean": 1462.433
+    },
+    "mcu_temperature": {
+      "n": 181,
+      "min": 33.08,
+      "max": 33.73,
+      "mean": 33.404,
+      "median": 33.4,
+      "std": 0.162,
+      "span": 0.65,
+      "first5min_mean": 33.522,
+      "last5min_mean": 33.325
+    }
+  },
+  "comfort_design_counts": {
+    "t_in_band": 0,
+    "rh_in_band": 181,
+    "both": 0,
+    "lux_ge_300": 61,
+    "n": 181
+  },
+  "overlap": {
+    "time": "2026-08-03T12:00",
+    "t": 25.8,
+    "rh": 49.0,
+    "precip": 0.0,
+    "wind": 1.2,
+    "p": 852.4,
+    "pm25": 3.4,
+    "pm10": 6.3,
+    "o3": 135.0,
+    "co": 213.0,
+    "no2": 4.2,
+    "so2": 4.2,
+    "uv": 10.1,
+    "eaqi": 68.0
+  },
+  "week": {
+    "t": {
+      "min": 14.3,
+      "max": 33.2
+    },
+    "rh": {
+      "min": 24.0,
+      "max": 100.0
+    },
+    "p": {
+      "min": 845.0,
+      "max": 852.6
+    },
+    "pm25": {
+      "min": 1.0,
+      "max": 24.7
+    }
+  },
+  "weather_grid": {
+    "latitude": "36.098415",
+    "longitude": "103.89105",
+    "elevation": "1525.0",
+    "utc_offset_seconds": "28800",
+    "timezone": "Asia/Shanghai",
+    "timezone_abbreviation": "GMT+8"
+  },
+  "aq_grid": {
+    "latitude": "36.1",
+    "longitude": "103.80002",
+    "elevation": "1525.0",
+    "utc_offset_seconds": "28800",
+    "timezone": "Asia/Shanghai",
+    "timezone_abbreviation": "GMT+8"
+  },
+  "notes": [
+    "indoor stream is simulated, not captured from a physical board",
+    "comfort bands are a design convention, not a national standard"
+  ]
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <title>室况 — 方向样品海报（非已定毕业设计题目）</title>
+  <link rel="stylesheet" href="assets/poster.css">
+</head>
+<body>
+  <article class="poster" id="poster">
+    <header class="mast">
+      <div>
+        <div class="kicker">
+          <span>标本 Lumen · B · 2026.11.11</span>
+          <span class="badge">方向样品 · 不是已确定的毕业设计题目</span>
+          <span class="badge alert">室内流为模拟，非实机</span>
+        </div>
+        <h1>室况<em>A room kit</em></h1>
+        <p class="lede">给教室、实验室或办公室管理者用的室内环境监测套件。节点采集，串口入库，按设计口径做一场半小时值守。不是已定的毕设题目，也不是实机采样。云电脑没有实物板，未烧录、未实采。</p>
+      </div>
+      <div class="meta">
+        <div class="line-id">STM32F4ZGT6 · 模拟节点</div>
+        <div>完整型号 STM32F407ZGT6 为推断，未见实物标签</div>
+        <div>值守窗口 <b>2026-08-03 12:00–12:30</b> · Asia/Shanghai</div>
+        <div>间隔 10 秒 · 181 周期 · stm32-f4zg-sim-01</div>
+        <div>采集 → 存储 → 分析 → 产品</div>
+        <div>主效是节点产品与数据链路，不做室外格点对照</div>
+      </div>
+    </header>
+    <nav class="frieze">
+      <div class="step"><span class="n">01</span><span class="lab">采集</span><span class="desc">示意串口送出模拟周期</span></div>
+      <div class="step"><span class="n">02</span><span class="lab">存储</span><span class="desc">USART 文本与 CSV / JSONL</span></div>
+      <div class="step"><span class="n">03</span><span class="lab">分析</span><span class="desc">稳态与设计口径</span></div>
+      <div class="step"><span class="n">04</span><span class="lab">产品</span><span class="desc">给管理者的室况台</span></div>
+    </nav>
+    <section class="stage">
+      <section class="room">
+        <p class="scene-copy">产品场景以教室为例。按阅读口径，前五分钟 22 / 30 个点还在 300 lx 以上，后五分钟全部低于该线。温度全程略高于 26 °C 上沿。同一条模拟流，不是某间真实教室的实测。实验室与办公室只是文案框，数据并不分开。</p>
+        <div class="face">
+          <div>
+            <div class="clock">12:15:00　·　采样 91 / 181</div>
+            <div class="hero">
+              <div class="hero-val">26.56</div>
+              <div class="hero-unit">°C</div>
+              <div class="hero-tag">略高于设计口径上沿 26 °C · 不是国标结论</div>
+            </div>
+          </div>
+          <div class="metrics">
+            <div class="metric is-ok"><div class="k">相对湿度</div><div class="v">46.8 %</div><div class="s">在设计口径 40–60% 内</div></div>
+            <div class="metric is-out"><div class="k">照度</div><div class="v">282 lx</div><div class="s">低于阅读线 300 lx</div></div>
+            <div class="metric"><div class="k">气压</div><div class="v">852.7 hPa</div><div class="s">室内通道 · 模拟</div></div>
+            <div class="metric"><div class="k">气体指数 / 片内温度</div><div class="v">26.6</div><div class="s">未标定指数　片内 33.31 °C（非气温）</div></div>
+          </div>
+        </div>
+        <p class="tape-caption">
+          <strong>半小时值守带 · 模拟节点。</strong>
+          色带为温度、相对湿度、照度是否落入设计口径（20–26 °C、40–60%、阅读 300 lx），不是国标。细线为照度值。竖标为 12:15。
+        </p>
+        <svg id="tape" aria-label="半小时值守带"></svg>
+        <p class="brief">半小时温度极差 <b>0.84 °C</b>（标准差 0.25 °C），均值 26.60 °C。设计口径 20–26 °C：<b>0 / 181</b> 落入。湿度 40–60%：<b>181 / 181</b>。照度 ≥ 300 lx：<b>61 / 181</b>；首五分钟 22 / 30，末五分钟 0 / 30。</p>
+        <div class="kit-row">
+          <div>
+            <svg class="kit-svg" viewBox="0 0 320 108" role="img" aria-label="推断的节点套件示意">
+              <rect x="8" y="10" width="304" height="88" fill="none" stroke="#3a342c" stroke-width="1"/>
+              <rect x="16" y="18" width="92" height="52" fill="none" stroke="#c4a887" stroke-width="1"/>
+              <text x="22" y="34" fill="#c4a887" font-size="8" font-family="IBM Plex Sans, sans-serif">MCU</text>
+              <text x="22" y="46" fill="#ece6dc" font-size="9" font-family="Newsreader, Noto Serif SC, serif">STM32F4ZGT6</text>
+              <text x="22" y="58" fill="#8a8276" font-size="7" font-family="IBM Plex Sans, Noto Serif SC, sans-serif">完整型号为推断</text>
+              <rect x="116" y="18" width="86" height="28" fill="none" stroke="#8aa07a" stroke-width="1"/>
+              <text x="122" y="30" fill="#8aa07a" font-size="8" font-family="IBM Plex Sans, sans-serif">I2C1</text>
+              <text x="122" y="41" fill="#ece6dc" font-size="8" font-family="IBM Plex Sans, Noto Serif SC, sans-serif">BME280 · 推断</text>
+              <rect x="210" y="18" width="92" height="28" fill="none" stroke="#c4a887" stroke-width="1"/>
+              <text x="216" y="30" fill="#c4a887" font-size="8" font-family="IBM Plex Sans, sans-serif">I2C1</text>
+              <text x="216" y="41" fill="#ece6dc" font-size="8" font-family="IBM Plex Sans, Noto Serif SC, sans-serif">BH1750 · 推断</text>
+              <rect x="116" y="52" width="86" height="28" fill="none" stroke="#d06a32" stroke-width="1"/>
+              <text x="122" y="64" fill="#d06a32" font-size="8" font-family="IBM Plex Sans, sans-serif">ADC1</text>
+              <text x="122" y="75" fill="#ece6dc" font-size="8" font-family="IBM Plex Sans, Noto Serif SC, sans-serif">MQ135 · 未标定</text>
+              <rect x="210" y="52" width="92" height="28" fill="none" stroke="#8a8276" stroke-width="1"/>
+              <text x="216" y="64" fill="#8a8276" font-size="8" font-family="IBM Plex Sans, sans-serif">ADC1 内部</text>
+              <text x="216" y="75" fill="#ece6dc" font-size="8" font-family="IBM Plex Sans, Noto Serif SC, sans-serif">MCU_TS · 非气温</text>
+              <text x="16" y="90" fill="#5c564c" font-size="7" font-family="IBM Plex Sans, Noto Serif SC, sans-serif">USART 示意 115200 8N1 · 实践习惯，非已核实板级设置 · 非实物照片</text>
+            </svg>
+            <p class="bom">节点 <b>stm32-f4zg-sim-01</b>　固件 sim-0.1.0。传感器品类、总线与引脚均为推断。右侧为 12:15 的示意串口解析与原文，不是实机抓包。</p>
+          </div>
+          <div>
+            <div class="proto">周期 <b>SEQ=90</b>　SRC=simulated　12:15:00</div>
+            <div class="fields" id="fields"></div>
+            <pre class="usart" id="usartLine"></pre>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="findings">
+      <div>
+        <h2>稳态 · 由模拟流算出</h2>
+        <p>半小时室内温度极差仅 <b>0.84 °C</b>。湿度极差 3.07%。用来向管理者演示「先看这场值守是否稳态」的方法，不是实测房间结论。</p>
+      </div>
+      <div>
+        <h2>设计口径 · 非正式标准</h2>
+        <p>20–26 °C：<b>0 / 181</b>，全部略高于上沿。40–60% 湿度：全部落入。照度 ≥ 300 lx：<b>61 / 181</b>，后五分钟 0 / 30。口径不是国标。</p>
+      </div>
+      <div>
+        <h2>链路 · 采集到产品</h2>
+        <p>USART 一行一周期，与 CSV / JSONL 同字段。片内温度均值 33.40 °C，不能当气温。MQ135 指数未标定，不做浓度告警。</p>
+      </div>
+    </section>
+    <footer class="colo">
+      <div>
+        <h3>来源与许可证</h3>
+        室内：Atlas 模拟流与示意 USART 行，「模拟，非实机」。本页不以室外格点作对照主效，未引用 Open-Meteo。详见 README 与 data/SOURCE.md。获取记录 2026-11-11（Asia/Shanghai）。
+      </div>
+      <div>
+        <h3>事实 · 由样本算出</h3>
+        均值、极差、标准差、首末五分钟均值与口径计数，来自拷贝的原文。传感器名称与数值本身仍是模拟或推断配置下的记录。主人所说板型为 STM32F4ZGT6。
+      </div>
+      <div>
+        <h3>推断 · 设计解读</h3>
+        STM32F407ZGT6 与 BME280 / BH1750 / MQ135、引脚均为推断，未见实物标签。舒适带是设计口径。教室只是产品文案框。标题「室况」不是已定题目。
+      </div>
+    </footer>
+  </article>
+  <script src="data/specimen.js"></script>
+  <script src="assets/render.js"></script>
+  <script src="assets/poster.js"></script>
+</body>
+</html>

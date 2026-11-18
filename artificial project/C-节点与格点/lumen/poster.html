@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <title>节点与格点 — 方向样品海报（非已定毕业设计题目）</title>
+  <link rel="stylesheet" href="assets/poster.css">
+</head>
+<body>
+  <article class="poster" id="poster">
+    <header class="mast">
+      <div>
+        <div class="kicker">
+          <span>标本 Lumen · C · 2026.11.11</span>
+          <span class="badge">方向样品 · 不是已确定的毕业设计题目</span>
+          <span class="badge alert">室内流为模拟，非实机</span>
+        </div>
+        <h1>节点与格点<em>A node and a grid</em></h1>
+        <p class="lede">半小时室内节点，对照一格室外模式小时。用来讨论教室、办公或场馆的环境监测方法。不是已定的毕设题目，也不是实机采样。云电脑没有实物板，未烧录、未实采。</p>
+      </div>
+      <div class="meta">
+        <div class="line-id">STM32F4ZGT6 · 模拟节点</div>
+        <div>完整型号 STM32F407ZGT6 为推断，未见实物标签</div>
+        <div>室内 <b>2026-08-03 12:00–12:30</b> · Asia/Shanghai</div>
+        <div>室外：Open-Meteo 兰州市区参考点，非校园测站</div>
+        <div>对照只落在 12:00 这一整点小时</div>
+        <div>Weather data by Open-Meteo.com · 空气质量归属 CAMS</div>
+      </div>
+    </header>
+    <nav class="frieze">
+      <div class="step"><span class="n">01</span><span class="lab">采集</span><span class="desc">本地节点流（模拟）与公开小时序列</span></div>
+      <div class="step"><span class="n">02</span><span class="lab">存储</span><span class="desc">CSV / JSONL，保留原始码</span></div>
+      <div class="step"><span class="n">03</span><span class="lab">计算</span><span class="desc">半小时稳态与整点对照</span></div>
+      <div class="step"><span class="n">04</span><span class="lab">分析</span><span class="desc">室内变幅、舒适口径、片内温度</span></div>
+      <div class="step"><span class="n">05</span><span class="lab">价值</span><span class="desc">教室 / 办公 / 场馆对照方法</span></div>
+    </nav>
+    <section class="stage">
+      <p class="chart-caption">
+        <strong>半小时室内时序 · 模拟节点。</strong>
+        实线为 10 秒采样（推断的 BME280 / BH1750 通道）。虚线为室外格点 12:00 整点值，不是 30 分钟连续曲线。浅带与 300 lx 标线为设计口径，不是国标。室内数值仅松散参考了此时室外温湿度气压的量级，差值不是实测房间效应。
+      </p>
+      <div class="stack" id="stack">
+        <div class="pane"><svg id="ch-temp"></svg></div>
+        <div class="pane"><svg id="ch-rh"></svg></div>
+        <div class="pane"><svg id="ch-lux"></svg></div>
+      </div>
+    </section>
+    <section class="findings">
+      <div>
+        <h2>稳态 · 由模拟流算出</h2>
+        <p>半小时室内温度极差仅 <b>0.84 °C</b>（标准差 0.25 °C）。同日室外格点从 14.3 升至 28.3 °C。这是本条模拟流的形态，用来演示「先看室内是否稳态」的方法。</p>
+      </div>
+      <div>
+        <h2>整点对照 · 非实测效应</h2>
+        <p>室内均值 26.60 °C / 47.0 % / 852.70 hPa，室外整点 25.8 °C / 49 % / 852.4 hPa。演示流仅松散参考了该量级，<b>差值不是实测房间效应</b>。</p>
+      </div>
+      <div>
+        <h2>设计口径 · 非正式标准</h2>
+        <p>20–26 °C：181 点全部略高于上沿。40–60 % 湿度：全部落入。照度 ≥ 300 lx：<b>61 / 181</b>。片内温度均值 33.40 °C，不能当作室内气温。MQ135 指数未标定，不与 PM2.5 比较。</p>
+      </div>
+    </section>
+    <footer class="colo">
+      <div>
+        <h3>来源与许可证</h3>
+        室内：Atlas 模拟流，「模拟，非实机」。室外：Open-Meteo，CC BY 4.0。Weather data by Open-Meteo.com。空气质量还须归属 CAMS。兰州市区参考点约 36.06°N, 103.83°E，接口吸附到不同格点。不断定模式名称或网格间距。详见 README 与 data/SOURCE.md。获取记录 2026-11-11（Asia/Shanghai）。
+      </div>
+      <div>
+        <h3>事实 · 由样本算出</h3>
+        均值、极差、标准差、首末五分钟均值、与 12:00 整点的并排数字，均来自拷贝的原文。传感器名称与数值本身仍是模拟或推断配置下的记录。主人所说板型为 STM32F4ZGT6。
+      </div>
+      <div>
+        <h3>推断 · 设计解读</h3>
+        STM32F407ZGT6 与 BME280 / BH1750 / MQ135、引脚均为推断，未见实物标签。舒适带是设计口径。不把格点写成校园站。室内没有一周采样，整周室外仅作上下文。
+      </div>
+    </footer>
+  </article>
+  <script src="data/specimen.js"></script>
+  <script src="assets/render.js"></script>
+  <script src="assets/poster.js"></script>
+</body>
+</html>

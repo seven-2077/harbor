@@ -1,0 +1,193 @@
+transit_timestamp,transit_mode,station_complex_id,station_complex,borough,payment_method,fare_class_category,ridership,transfers,latitude,longitude
+2026-08-03T00:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,6,0,40.755745,-73.98758
+2026-08-03T00:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,14,0,40.755745,-73.98758
+2026-08-03T00:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,95,0,40.755745,-73.98758
+2026-08-03T00:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,2236,5,40.755745,-73.98758
+2026-08-03T00:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,231,0,40.755745,-73.98758
+2026-08-03T00:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,53,0,40.755745,-73.98758
+2026-08-03T00:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,120,0,40.755745,-73.98758
+2026-08-03T01:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,3,0,40.755745,-73.98758
+2026-08-03T01:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,13,0,40.755745,-73.98758
+2026-08-03T01:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,1,0,40.755745,-73.98758
+2026-08-03T01:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,53,0,40.755745,-73.98758
+2026-08-03T01:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,920,0,40.755745,-73.98758
+2026-08-03T01:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,113,0,40.755745,-73.98758
+2026-08-03T01:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,18,0,40.755745,-73.98758
+2026-08-03T01:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,66,0,40.755745,-73.98758
+2026-08-03T02:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,1,0,40.755745,-73.98758
+2026-08-03T02:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,9,0,40.755745,-73.98758
+2026-08-03T02:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,1,0,40.755745,-73.98758
+2026-08-03T02:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,21,0,40.755745,-73.98758
+2026-08-03T02:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,434,0,40.755745,-73.98758
+2026-08-03T02:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,64,0,40.755745,-73.98758
+2026-08-03T02:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,12,0,40.755745,-73.98758
+2026-08-03T02:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,32,0,40.755745,-73.98758
+2026-08-03T03:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,4,0,40.755745,-73.98758
+2026-08-03T03:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,14,0,40.755745,-73.98758
+2026-08-03T03:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,223,3,40.755745,-73.98758
+2026-08-03T03:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,34,1,40.755745,-73.98758
+2026-08-03T03:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,5,0,40.755745,-73.98758
+2026-08-03T03:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,7,0,40.755745,-73.98758
+2026-08-03T04:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,4,0,40.755745,-73.98758
+2026-08-03T04:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,14,0,40.755745,-73.98758
+2026-08-03T04:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,326,0,40.755745,-73.98758
+2026-08-03T04:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,41,0,40.755745,-73.98758
+2026-08-03T04:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,19,0,40.755745,-73.98758
+2026-08-03T04:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,9,0,40.755745,-73.98758
+2026-08-03T05:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,2,0,40.755745,-73.98758
+2026-08-03T05:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,30,0,40.755745,-73.98758
+2026-08-03T05:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,25,0,40.755745,-73.98758
+2026-08-03T05:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,2140,25,40.755745,-73.98758
+2026-08-03T05:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,114,0,40.755745,-73.98758
+2026-08-03T05:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,107,5,40.755745,-73.98758
+2026-08-03T05:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,13,0,40.755745,-73.98758
+2026-08-03T06:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,4,0,40.755745,-73.98758
+2026-08-03T06:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,43,0,40.755745,-73.98758
+2026-08-03T06:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Seniors & Disability,1,0,40.755745,-73.98758
+2026-08-03T06:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,64,2,40.755745,-73.98758
+2026-08-03T06:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,5559,120,40.755745,-73.98758
+2026-08-03T06:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,251,0,40.755745,-73.98758
+2026-08-03T06:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,284,9,40.755745,-73.98758
+2026-08-03T06:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,48,0,40.755745,-73.98758
+2026-08-03T07:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,4,0,40.755745,-73.98758
+2026-08-03T07:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,30,0,40.755745,-73.98758
+2026-08-03T07:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Seniors & Disability,2,0,40.755745,-73.98758
+2026-08-03T07:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,102,2,40.755745,-73.98758
+2026-08-03T07:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,8529,160,40.755745,-73.98758
+2026-08-03T07:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,251,1,40.755745,-73.98758
+2026-08-03T07:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,371,10,40.755745,-73.98758
+2026-08-03T07:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,97,4,40.755745,-73.98758
+2026-08-03T08:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,4,0,40.755745,-73.98758
+2026-08-03T08:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,31,0,40.755745,-73.98758
+2026-08-03T08:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,2,0,40.755745,-73.98758
+2026-08-03T08:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,151,9,40.755745,-73.98758
+2026-08-03T08:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,11450,218,40.755745,-73.98758
+2026-08-03T08:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,396,1,40.755745,-73.98758
+2026-08-03T08:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,426,18,40.755745,-73.98758
+2026-08-03T08:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,133,7,40.755745,-73.98758
+2026-08-03T09:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,20,0,40.755745,-73.98758
+2026-08-03T09:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,3,0,40.755745,-73.98758
+2026-08-03T09:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 7-Day,1,0,40.755745,-73.98758
+2026-08-03T09:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,104,6,40.755745,-73.98758
+2026-08-03T09:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,7786,116,40.755745,-73.98758
+2026-08-03T09:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,553,0,40.755745,-73.98758
+2026-08-03T09:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,350,10,40.755745,-73.98758
+2026-08-03T09:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,65,4,40.755745,-73.98758
+2026-08-03T10:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,35,0,40.755745,-73.98758
+2026-08-03T10:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,84,3,40.755745,-73.98758
+2026-08-03T10:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,4723,63,40.755745,-73.98758
+2026-08-03T10:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,732,1,40.755745,-73.98758
+2026-08-03T10:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,247,19,40.755745,-73.98758
+2026-08-03T10:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,61,0,40.755745,-73.98758
+2026-08-03T11:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,2,0,40.755745,-73.98758
+2026-08-03T11:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,22,0,40.755745,-73.98758
+2026-08-03T11:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,3,0,40.755745,-73.98758
+2026-08-03T11:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,84,5,40.755745,-73.98758
+2026-08-03T11:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,4042,43,40.755745,-73.98758
+2026-08-03T11:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,651,0,40.755745,-73.98758
+2026-08-03T11:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,232,14,40.755745,-73.98758
+2026-08-03T11:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,53,1,40.755745,-73.98758
+2026-08-03T12:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,5,0,40.755745,-73.98758
+2026-08-03T12:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,22,0,40.755745,-73.98758
+2026-08-03T12:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,1,0,40.755745,-73.98758
+2026-08-03T12:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 7-Day,2,0,40.755745,-73.98758
+2026-08-03T12:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,105,4,40.755745,-73.98758
+2026-08-03T12:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,3929,50,40.755745,-73.98758
+2026-08-03T12:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,594,1,40.755745,-73.98758
+2026-08-03T12:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,280,12,40.755745,-73.98758
+2026-08-03T12:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,81,3,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,2,0,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,18,0,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Seniors & Disability,1,0,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,1,0,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 7-Day,1,0,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,111,2,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,3909,50,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,521,1,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,287,10,40.755745,-73.98758
+2026-08-03T13:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,110,4,40.755745,-73.98758
+2026-08-03T14:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,7,0,40.755745,-73.98758
+2026-08-03T14:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,23,0,40.755745,-73.98758
+2026-08-03T14:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,3,0,40.755745,-73.98758
+2026-08-03T14:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 7-Day,1,0,40.755745,-73.98758
+2026-08-03T14:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,182,8,40.755745,-73.98758
+2026-08-03T14:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,4794,71,40.755745,-73.98758
+2026-08-03T14:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,483,0,40.755745,-73.98758
+2026-08-03T14:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,349,18,40.755745,-73.98758
+2026-08-03T14:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,160,5,40.755745,-73.98758
+2026-08-03T15:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,8,0,40.755745,-73.98758
+2026-08-03T15:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,30,0,40.755745,-73.98758
+2026-08-03T15:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,3,0,40.755745,-73.98758
+2026-08-03T15:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 7-Day,1,0,40.755745,-73.98758
+2026-08-03T15:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,224,7,40.755745,-73.98758
+2026-08-03T15:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,5622,62,40.755745,-73.98758
+2026-08-03T15:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,537,4,40.755745,-73.98758
+2026-08-03T15:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,366,17,40.755745,-73.98758
+2026-08-03T15:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,242,4,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,12,1,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,24,0,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Seniors & Disability,1,0,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,4,0,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 7-Day,1,0,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,293,4,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,7391,75,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,662,6,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,484,16,40.755745,-73.98758
+2026-08-03T16:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,240,8,40.755745,-73.98758
+2026-08-03T17:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,5,0,40.755745,-73.98758
+2026-08-03T17:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,18,0,40.755745,-73.98758
+2026-08-03T17:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,3,0,40.755745,-73.98758
+2026-08-03T17:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 7-Day,1,0,40.755745,-73.98758
+2026-08-03T17:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,379,7,40.755745,-73.98758
+2026-08-03T17:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,12454,93,40.755745,-73.98758
+2026-08-03T17:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,639,4,40.755745,-73.98758
+2026-08-03T17:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,557,12,40.755745,-73.98758
+2026-08-03T17:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,296,0,40.755745,-73.98758
+2026-08-03T18:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,13,1,40.755745,-73.98758
+2026-08-03T18:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,12,0,40.755745,-73.98758
+2026-08-03T18:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,6,0,40.755745,-73.98758
+2026-08-03T18:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,288,3,40.755745,-73.98758
+2026-08-03T18:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,9586,64,40.755745,-73.98758
+2026-08-03T18:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,594,4,40.755745,-73.98758
+2026-08-03T18:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,493,7,40.755745,-73.98758
+2026-08-03T18:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,217,1,40.755745,-73.98758
+2026-08-03T19:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,9,0,40.755745,-73.98758
+2026-08-03T19:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,12,0,40.755745,-73.98758
+2026-08-03T19:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,4,0,40.755745,-73.98758
+2026-08-03T19:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,231,2,40.755745,-73.98758
+2026-08-03T19:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,5730,42,40.755745,-73.98758
+2026-08-03T19:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,487,7,40.755745,-73.98758
+2026-08-03T19:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,340,8,40.755745,-73.98758
+2026-08-03T19:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,161,5,40.755745,-73.98758
+2026-08-03T20:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,7,0,40.755745,-73.98758
+2026-08-03T20:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,24,0,40.755745,-73.98758
+2026-08-03T20:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Seniors & Disability,1,0,40.755745,-73.98758
+2026-08-03T20:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,206,0,40.755745,-73.98758
+2026-08-03T20:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,4561,30,40.755745,-73.98758
+2026-08-03T20:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,506,0,40.755745,-73.98758
+2026-08-03T20:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,199,6,40.755745,-73.98758
+2026-08-03T20:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,172,2,40.755745,-73.98758
+2026-08-03T21:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,5,0,40.755745,-73.98758
+2026-08-03T21:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,24,0,40.755745,-73.98758
+2026-08-03T21:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,1,0,40.755745,-73.98758
+2026-08-03T21:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,178,1,40.755745,-73.98758
+2026-08-03T21:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,5194,29,40.755745,-73.98758
+2026-08-03T21:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,541,2,40.755745,-73.98758
+2026-08-03T21:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,195,3,40.755745,-73.98758
+2026-08-03T21:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,160,0,40.755745,-73.98758
+2026-08-03T22:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,2,0,40.755745,-73.98758
+2026-08-03T22:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,22,0,40.755745,-73.98758
+2026-08-03T22:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 7-Day,1,0,40.755745,-73.98758
+2026-08-03T22:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,162,1,40.755745,-73.98758
+2026-08-03T22:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,4180,25,40.755745,-73.98758
+2026-08-03T22:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,448,1,40.755745,-73.98758
+2026-08-03T22:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,164,2,40.755745,-73.98758
+2026-08-03T22:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,134,0,40.755745,-73.98758
+2026-08-03T23:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Full Fare,1,0,40.755745,-73.98758
+2026-08-03T23:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Other,24,0,40.755745,-73.98758
+2026-08-03T23:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,metrocard,Metrocard - Unlimited 30-Day,1,0,40.755745,-73.98758
+2026-08-03T23:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Fair Fare,128,0,40.755745,-73.98758
+2026-08-03T23:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Full Fare,3020,16,40.755745,-73.98758
+2026-08-03T23:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Other,331,0,40.755745,-73.98758
+2026-08-03T23:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Seniors & Disability,104,1,40.755745,-73.98758
+2026-08-03T23:00:00,subway,611,"Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",Manhattan,omny,OMNY - Students,95,0,40.755745,-73.98758

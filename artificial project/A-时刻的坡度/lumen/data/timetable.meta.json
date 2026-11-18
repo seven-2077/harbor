@@ -1,0 +1,834 @@
+{
+  "meta": {
+    "specimen": true,
+    "not_a_thesis_title": true,
+    "title_zh": "时刻的坡度",
+    "agency": "MTA New York City Transit",
+    "route_ids": [
+      "7",
+      "7X"
+    ],
+    "route_names": {
+      "7": "Flushing Local",
+      "7X": "Flushing Express"
+    },
+    "service_id": "Weekday",
+    "service_date": "2026-11-11",
+    "service_date_note": "2026-11-11 is a Wednesday. In this feed, Weekday service applies from 20261101 to 20270515; calendar_dates.txt has no exception on 20261111.",
+    "timezone": "America/New_York",
+    "feed_version": "20261028-fall-2026-pick-with-long-term-supplements",
+    "feed_start_date": "20261101",
+    "feed_end_date": "20270515",
+    "source_files": "atlas/tmp/gtfs_subway (official MTA regular subway GTFS, filename gtfs_subway.zip)",
+    "official_url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_subway.zip",
+    "developers_page": "https://www.mta.info/developers",
+    "terms_url": "https://www.mta.info/developers/terms-and-conditions",
+    "acquired": "2026-11-11",
+    "acquired_tz": "Asia/Shanghai",
+    "excerpt": "Only routes 7 and 7X, service_id=Weekday, plus the stops and shapes those trips use. Not the full network, not multiple days, not realtime, not ridership.",
+    "y_axis": {
+      "meaning": "Distance along the line, Flushing-Main St = 0 toward 34 St-Hudson Yards.",
+      "method": "nearest_vertex_on_shape_7..S97R",
+      "shape_id": "7..S97R",
+      "shape_length_m": 16545.7
+    },
+    "direction": {
+      "0": "eastbound, trip_headsign Flushing-Main St or Mets-Willets Point",
+      "1": "westbound, trip_headsign 34 St-Hudson Yards"
+    },
+    "river_gap": {
+      "east_station": "721",
+      "west_station": "723",
+      "note": "Design annotation: the span between these two recorded stations crosses the East River according to their coordinates. No 7/7X stop exists between them in this excerpt. Not an official civil-engineering map."
+    },
+    "eastbound_local_skips": {
+      "stations": [
+        "713",
+        "711"
+      ],
+      "names": [
+        "52 St",
+        "69 St"
+      ],
+      "east_local_trips": 256,
+      "east_local_trips_omitting_both": 256,
+      "note": "Observed in stop_times, not inferred. Westbound locals include both stations. Displayed as recorded; not corrected."
+    },
+    "time_range_sec": [
+      690,
+      91410
+    ],
+    "counts": {
+      "trips": 642,
+      "stop_times": 12915,
+      "stations_on_spine": 22,
+      "dwell_encoded_if_arr_neq_dep": 860
+    },
+    "end_to_end_scheduled": {
+      "west_local": {
+        "n": 252,
+        "min_sec": 2100,
+        "max_sec": 2580,
+        "median_sec": 2280
+      },
+      "west_express": {
+        "n": 42,
+        "min_sec": 2220,
+        "max_sec": 2400,
+        "median_sec": 2280
+      },
+      "east_local": {
+        "n": 228,
+        "min_sec": 2100,
+        "max_sec": 2610,
+        "median_sec": 2280
+      },
+      "east_express": {
+        "n": 65,
+        "min_sec": 2100,
+        "max_sec": 2400,
+        "median_sec": 2160
+      }
+    },
+    "express_windows": {
+      "east": {
+        "first_dep": 53160,
+        "last_dep": 78030,
+        "n": 65
+      },
+      "west": {
+        "first_dep": 22500,
+        "last_dep": 35370,
+        "n": 42
+      }
+    },
+    "facts_vs_inference": {
+      "facts": [
+        "Trip paths are polylines of arrival and departure timestamps from stop_times, placed on the station spine.",
+        "Where arrival and departure differ, a horizontal segment is the scheduled dwell as encoded in the feed.",
+        "Hourly bar counts are trip origin departures, or Grand Central departures, tallied from those timestamps.",
+        "Headways at Grand Central are differences between successive departures in the same direction.",
+        "End-to-end times use departure at the first terminal and arrival at the last when both 701 and 726 appear on the trip."
+      ],
+      "inference_or_design": [
+        "Position of a train at an arbitrary scrub time is linear interpolation in time between the two surrounding scheduled points, at constant implied speed. It is not a realtime or measured location.",
+        "The East River band is a design annotation based on station coordinates, not an official map layer.",
+        "Morning 06:30–09:30 and evening 16:00–19:30 veils are design time-of-day bands, not an official peak definition.",
+        "Y-axis chainage is computed from GTFS shapes (nearest vertex) or station coordinates; it is not a posted track mileage.",
+        "Chinese UI wording and the specimen title are design, not an official MTA translation or a chosen thesis title."
+      ]
+    },
+    "feed_publisher_name": "MTA New York City Transit",
+    "feed_publisher_url": "https://www.mta.info/"
+  },
+  "computed": {
+    "trips_by_hour_origin": {
+      "east_local": [
+        0,
+        4,
+        3,
+        3,
+        3,
+        5,
+        18,
+        25,
+        28,
+        16,
+        12,
+        12,
+        12,
+        12,
+        10,
+        8,
+        10,
+        13,
+        9,
+        10,
+        7,
+        9,
+        12,
+        9,
+        6,
+        0
+      ],
+      "east_express": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        7,
+        10,
+        13,
+        10,
+        9,
+        8,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "west_local": [
+        3,
+        3,
+        3,
+        3,
+        5,
+        9,
+        13,
+        14,
+        12,
+        8,
+        12,
+        12,
+        12,
+        12,
+        12,
+        15,
+        22,
+        24,
+        19,
+        17,
+        17,
+        12,
+        11,
+        9,
+        0,
+        0
+      ],
+      "west_express": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        13,
+        13,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "trips_by_hour_grand_central": {
+      "east": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        5,
+        17,
+        25,
+        27,
+        18,
+        12,
+        12,
+        12,
+        12,
+        12,
+        15,
+        19,
+        26,
+        19,
+        20,
+        15,
+        15,
+        12,
+        9,
+        7,
+        0
+      ],
+      "west": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        7,
+        15,
+        24,
+        28,
+        19,
+        13,
+        12,
+        12,
+        12,
+        12,
+        13,
+        18,
+        26,
+        20,
+        19,
+        18,
+        14,
+        12,
+        10,
+        3,
+        0
+      ]
+    },
+    "headways_grand_central_sec": {
+      "east": {
+        "n": 320,
+        "min": 120,
+        "median": 240,
+        "max": 1200
+      },
+      "west": {
+        "n": 320,
+        "min": 90,
+        "median": 210,
+        "max": 1200
+      }
+    }
+  },
+  "stations": [
+    {
+      "id": "701",
+      "name": "Flushing-Main St",
+      "lat": 40.7596,
+      "lon": -73.83003,
+      "chainage_m": 0.0,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "702",
+      "name": "Mets-Willets Point",
+      "lat": 40.754622,
+      "lon": -73.845625,
+      "chainage_m": 1430.5,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "705",
+      "name": "111 St",
+      "lat": 40.75173,
+      "lon": -73.855334,
+      "chainage_m": 2309.2,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "706",
+      "name": "103 St-Corona Plaza",
+      "lat": 40.749865,
+      "lon": -73.8627,
+      "chainage_m": 2966.1,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "707",
+      "name": "Junction Blvd",
+      "lat": 40.749145,
+      "lon": -73.869527,
+      "chainage_m": 3546.7,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "708",
+      "name": "90 St-Elmhurst Av",
+      "lat": 40.748408,
+      "lon": -73.876613,
+      "chainage_m": 4149.3,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "709",
+      "name": "82 St-Jackson Hts",
+      "lat": 40.747659,
+      "lon": -73.883697,
+      "chainage_m": 4751.8,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "710",
+      "name": "74 St-Broadway",
+      "lat": 40.746848,
+      "lon": -73.891394,
+      "chainage_m": 5406.4,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "711",
+      "name": "69 St",
+      "lat": 40.746325,
+      "lon": -73.896403,
+      "chainage_m": 5832.4,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "712",
+      "name": "61 St-Woodside",
+      "lat": 40.74563,
+      "lon": -73.902984,
+      "chainage_m": 6392.1,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "713",
+      "name": "52 St",
+      "lat": 40.744149,
+      "lon": -73.912549,
+      "chainage_m": 7220.2,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "714",
+      "name": "46 St-Bliss St",
+      "lat": 40.743132,
+      "lon": -73.918435,
+      "chainage_m": 7742.2,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "715",
+      "name": "40 St-Lowery St",
+      "lat": 40.743781,
+      "lon": -73.924016,
+      "chainage_m": 8217.8,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "716",
+      "name": "33 St-Rawson St",
+      "lat": 40.744587,
+      "lon": -73.930997,
+      "chainage_m": 8812.7,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "718",
+      "name": "Queensboro Plaza",
+      "lat": 40.750582,
+      "lon": -73.940202,
+      "chainage_m": 9871.0,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "719",
+      "name": "Court Sq",
+      "lat": 40.747023,
+      "lon": -73.945264,
+      "chainage_m": 10596.2,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "720",
+      "name": "Hunters Point Av",
+      "lat": 40.742216,
+      "lon": -73.948916,
+      "chainage_m": 11376.9,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "721",
+      "name": "Vernon Blvd-Jackson Av",
+      "lat": 40.742626,
+      "lon": -73.953581,
+      "chainage_m": 11783.0,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "723",
+      "name": "Grand Central-42 St",
+      "lat": 40.751431,
+      "lon": -73.976041,
+      "chainage_m": 13919.9,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "724",
+      "name": "5 Av",
+      "lat": 40.753821,
+      "lon": -73.981963,
+      "chainage_m": 14485.7,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "725",
+      "name": "Times Sq-42 St",
+      "lat": 40.755477,
+      "lon": -73.987691,
+      "chainage_m": 15017.4,
+      "snap_dist_m": 0.0
+    },
+    {
+      "id": "726",
+      "name": "34 St-Hudson Yards",
+      "lat": 40.755882,
+      "lon": -74.00191,
+      "chainage_m": 16545.7,
+      "snap_dist_m": 0.0
+    }
+  ],
+  "ridership_summary": {
+    "dates": [
+      "2026-08-03",
+      "2026-08-04",
+      "2026-08-05",
+      "2026-08-06",
+      "2026-08-07",
+      "2026-08-08",
+      "2026-08-09"
+    ],
+    "complexes": [
+      {
+        "gtfs_parent": "701",
+        "complex_id": "447",
+        "complex_name": "Flushing-Main St (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 41244,
+          "2026-08-04": 46721,
+          "2026-08-05": 45606,
+          "2026-08-06": 45843,
+          "2026-08-07": 44503,
+          "2026-08-08": 37304,
+          "2026-08-09": 31475
+        }
+      },
+      {
+        "gtfs_parent": "702",
+        "complex_id": "448",
+        "complex_name": "Mets-Willets Point (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 2504,
+          "2026-08-04": 3083,
+          "2026-08-05": 2913,
+          "2026-08-06": 2935,
+          "2026-08-07": 4071,
+          "2026-08-08": 10206,
+          "2026-08-09": 17440
+        }
+      },
+      {
+        "gtfs_parent": "705",
+        "complex_id": "449",
+        "complex_name": "111 St (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 10830,
+          "2026-08-04": 11975,
+          "2026-08-05": 11862,
+          "2026-08-06": 11667,
+          "2026-08-07": 11995,
+          "2026-08-08": 10858,
+          "2026-08-09": 7190
+        }
+      },
+      {
+        "gtfs_parent": "706",
+        "complex_id": "450",
+        "complex_name": "103 St-Corona Plaza (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 13268,
+          "2026-08-04": 14670,
+          "2026-08-05": 14938,
+          "2026-08-06": 14690,
+          "2026-08-07": 14543,
+          "2026-08-08": 10343,
+          "2026-08-09": 7780
+        }
+      },
+      {
+        "gtfs_parent": "707",
+        "complex_id": "451",
+        "complex_name": "Junction Blvd (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 17093,
+          "2026-08-04": 19154,
+          "2026-08-05": 18754,
+          "2026-08-06": 19145,
+          "2026-08-07": 19584,
+          "2026-08-08": 14792,
+          "2026-08-09": 11843
+        }
+      },
+      {
+        "gtfs_parent": "708",
+        "complex_id": "452",
+        "complex_name": "90 St-Elmhurst Av (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 11981,
+          "2026-08-04": 13426,
+          "2026-08-05": 13431,
+          "2026-08-06": 13299,
+          "2026-08-07": 13556,
+          "2026-08-08": 10250,
+          "2026-08-09": 8298
+        }
+      },
+      {
+        "gtfs_parent": "709",
+        "complex_id": "453",
+        "complex_name": "82 St-Jackson Hts (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 10664,
+          "2026-08-04": 11705,
+          "2026-08-05": 11432,
+          "2026-08-06": 11384,
+          "2026-08-07": 11390,
+          "2026-08-08": 8995,
+          "2026-08-09": 6932
+        }
+      },
+      {
+        "gtfs_parent": "710",
+        "complex_id": "616",
+        "complex_name": "Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)",
+        "multi_line": true,
+        "daily_sum": {
+          "2026-08-03": 41090,
+          "2026-08-04": 46494,
+          "2026-08-05": 44955,
+          "2026-08-06": 45889,
+          "2026-08-07": 44611,
+          "2026-08-08": 35309,
+          "2026-08-09": 29354
+        }
+      },
+      {
+        "gtfs_parent": "711",
+        "complex_id": "455",
+        "complex_name": "69 St (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 1706,
+          "2026-08-04": 1928,
+          "2026-08-05": 1867,
+          "2026-08-06": 1840,
+          "2026-08-07": 1789,
+          "2026-08-08": 1404,
+          "2026-08-09": 1221
+        }
+      },
+      {
+        "gtfs_parent": "712",
+        "complex_id": "456",
+        "complex_name": "61 St-Woodside (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 11162,
+          "2026-08-04": 12406,
+          "2026-08-05": 12257,
+          "2026-08-06": 12409,
+          "2026-08-07": 12011,
+          "2026-08-08": 9245,
+          "2026-08-09": 8209
+        }
+      },
+      {
+        "gtfs_parent": "713",
+        "complex_id": "457",
+        "complex_name": "52 St (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 3184,
+          "2026-08-04": 3671,
+          "2026-08-05": 3768,
+          "2026-08-06": 3732,
+          "2026-08-07": 3247,
+          "2026-08-08": 2274,
+          "2026-08-09": 1648
+        }
+      },
+      {
+        "gtfs_parent": "714",
+        "complex_id": "458",
+        "complex_name": "46 St-Bliss St (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 9179,
+          "2026-08-04": 10495,
+          "2026-08-05": 10417,
+          "2026-08-06": 10294,
+          "2026-08-07": 9660,
+          "2026-08-08": 7404,
+          "2026-08-09": 6195
+        }
+      },
+      {
+        "gtfs_parent": "715",
+        "complex_id": "459",
+        "complex_name": "40 St-Lowery St (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 6635,
+          "2026-08-04": 7634,
+          "2026-08-05": 7576,
+          "2026-08-06": 7418,
+          "2026-08-07": 6791,
+          "2026-08-08": 4754,
+          "2026-08-09": 3675
+        }
+      },
+      {
+        "gtfs_parent": "716",
+        "complex_id": "460",
+        "complex_name": "33 St-Rawson St (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 5900,
+          "2026-08-04": 6393,
+          "2026-08-05": 6489,
+          "2026-08-06": 6080,
+          "2026-08-07": 4316,
+          "2026-08-08": 1816,
+          "2026-08-09": 1183
+        }
+      },
+      {
+        "gtfs_parent": "718",
+        "complex_id": "461",
+        "complex_name": "Queensboro Plaza (7,N,W)",
+        "multi_line": true,
+        "daily_sum": {
+          "2026-08-03": 9660,
+          "2026-08-04": 11482,
+          "2026-08-05": 11444,
+          "2026-08-06": 11041,
+          "2026-08-07": 10137,
+          "2026-08-08": 9536,
+          "2026-08-09": 7663
+        }
+      },
+      {
+        "gtfs_parent": "719",
+        "complex_id": "606",
+        "complex_name": "Court Sq-23 St (7,E,F,G)",
+        "multi_line": true,
+        "daily_sum": {
+          "2026-08-03": 19254,
+          "2026-08-04": 22224,
+          "2026-08-05": 22655,
+          "2026-08-06": 22712,
+          "2026-08-07": 20221,
+          "2026-08-08": 16450,
+          "2026-08-09": 13199
+        }
+      },
+      {
+        "gtfs_parent": "720",
+        "complex_id": "463",
+        "complex_name": "Hunters Point Av (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 3427,
+          "2026-08-04": 3646,
+          "2026-08-05": 3885,
+          "2026-08-06": 3429,
+          "2026-08-07": 2933,
+          "2026-08-08": 1060,
+          "2026-08-09": 775
+        }
+      },
+      {
+        "gtfs_parent": "721",
+        "complex_id": "464",
+        "complex_name": "Vernon Blvd-Jackson Av (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 12410,
+          "2026-08-04": 15577,
+          "2026-08-05": 15222,
+          "2026-08-06": 15573,
+          "2026-08-07": 13067,
+          "2026-08-08": 12411,
+          "2026-08-09": 9583
+        }
+      },
+      {
+        "gtfs_parent": "723",
+        "complex_id": "610",
+        "complex_name": "Grand Central-42 St (4,5,6,7,S)",
+        "multi_line": true,
+        "daily_sum": {
+          "2026-08-03": 112290,
+          "2026-08-04": 134282,
+          "2026-08-05": 136730,
+          "2026-08-06": 128241,
+          "2026-08-07": 99915,
+          "2026-08-08": 68898,
+          "2026-08-09": 59176
+        }
+      },
+      {
+        "gtfs_parent": "724",
+        "complex_id": "609",
+        "complex_name": "42 St-Bryant Pk/5 Av (7,B,D,F,M)",
+        "multi_line": true,
+        "daily_sum": {
+          "2026-08-03": 40739,
+          "2026-08-04": 50396,
+          "2026-08-05": 50845,
+          "2026-08-06": 49617,
+          "2026-08-07": 39141,
+          "2026-08-08": 25788,
+          "2026-08-09": 23893
+        }
+      },
+      {
+        "gtfs_parent": "725",
+        "complex_id": "611",
+        "complex_name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)",
+        "multi_line": true,
+        "daily_sum": {
+          "2026-08-03": 141186,
+          "2026-08-04": 164241,
+          "2026-08-05": 166482,
+          "2026-08-06": 159916,
+          "2026-08-07": 138404,
+          "2026-08-08": 114513,
+          "2026-08-09": 102444
+        }
+      },
+      {
+        "gtfs_parent": "726",
+        "complex_id": "471",
+        "complex_name": "34 St-Hudson Yards (7)",
+        "multi_line": false,
+        "daily_sum": {
+          "2026-08-03": 21196,
+          "2026-08-04": 26305,
+          "2026-08-05": 25365,
+          "2026-08-06": 27648,
+          "2026-08-07": 18881,
+          "2026-08-08": 13448,
+          "2026-08-09": 11238
+        }
+      }
+    ],
+    "rows_excerpted": 3690
+  }
+}

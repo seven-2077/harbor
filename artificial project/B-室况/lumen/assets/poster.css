@@ -1,0 +1,44 @@
+@import url("style.css");
+html,body{height:auto;overflow:hidden;background:#171410;}
+body::before{z-index:5;}
+.poster{width:2400px;height:3600px;padding:96px 100px 80px;display:flex;flex-direction:column;position:relative;z-index:1;background:#171410;color:#ece6dc;}
+.poster .kicker{font-size:18px;letter-spacing:.18em;gap:16px 22px;}
+.poster .badge{font-size:16px;padding:3px 12px;}
+.poster h1{font-size:128px;margin-top:22px;letter-spacing:.04em;line-height:0.95;}
+.poster h1 em{display:block;font-size:72px;margin-top:10px;letter-spacing:.04em;}
+.poster .lede{font-size:28px;line-height:1.5;max-width:34em;margin-top:22px;}
+.poster .mast{grid-template-columns:1.4fr 0.9fr;gap:40px;padding-bottom:28px;}
+.poster .meta{font-size:18px;line-height:1.55;}
+.poster .meta .line-id{font-size:32px;margin-bottom:10px;}
+.poster .frieze{font-size:18px;}
+.poster .frieze .n,.poster .frieze .lab,.poster .frieze .desc{white-space:nowrap;flex-shrink:0;}
+.poster .frieze .step{padding:16px 20px 16px 0;}
+.poster .frieze .n{font-size:22px;}
+.poster .frieze .desc{overflow:visible;text-overflow:clip;}
+.poster .scenes{font-size:18px;padding:18px 0 8px;}
+.poster .scene-btn{font-size:18px;cursor:default;}
+.poster .stage{grid-template-columns:1fr;padding-top:18px;flex:0 0 auto;display:block;}
+.poster .room{flex:none;}
+.poster .scene-copy{font-size:24px;line-height:1.5;margin-bottom:16px;}
+.poster .clock{font-size:24px;}
+.poster .hero-val{font-size:160px;}
+.poster .hero-unit{font-size:36px;}
+.poster .hero-tag{font-size:22px;}
+.poster .metric .k{font-size:16px;}
+.poster .metric .v{font-size:48px;}
+.poster .metric .s{font-size:18px;}
+.poster .tape-caption{font-size:18px;line-height:1.5;margin:18px 0 10px;}
+.poster #tape{height:620px;flex:none;min-height:620px;cursor:default;}
+.poster .brief{font-size:22px;line-height:1.5;margin-top:16px;}
+.poster .side{display:none;}
+.findings{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:28px;margin-top:36px;padding-top:28px;border-top:1px solid #3a342c;}
+.findings h2{font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:#8a8276;font-weight:500;margin-bottom:8px;}
+.findings p{font-family:"Noto Serif SC","Newsreader",serif;font-size:26px;line-height:1.5;color:#b7aea0;}
+.findings p b{color:#ece6dc;font-weight:500;}
+.poster .colo{font-size:16px;line-height:1.5;gap:28px;margin-top:auto;padding-top:18px;}
+.poster .colo h3{font-size:13px;margin-bottom:6px;}
+.kit-row{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;margin-top:20px;align-items:center;}
+.poster .kit-svg{height:320px;}
+.poster .bom{font-size:18px;line-height:1.5;}
+.poster .fields{font-size:20px;line-height:1.55;gap:6px 20px;}
+.poster .usart{max-height:none;font-size:16px;line-height:1.45;padding:14px 16px;white-space:pre-wrap;word-break:normal;overflow-wrap:anywhere;}

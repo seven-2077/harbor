@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>校园 / 室内环境监测套件 · 选题 B 样品</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">兰大数据科学与大数据技术 · 选题 B 样品（三条候选之一，非定题）</p>
+      <h1>校园 / 室内环境监测套件</h1>
+      <p class="product">产品形态：节点采集（STM32 + BME280 / BH1750 / MQ135 等）→ 串口文本接入本地存储 → 舒适度分析，并与公开室外气象对照 → 给物业或实验室管理员看的看板。这是样品，不是已经在校园里部署的系统。</p>
+      <p class="disclaimer" id="disclaimer">这是选题 B 的样品原型，三条候选之一，不是已确认的毕设题目。</p>
+    </div>
+    <div class="source-box" id="source-box">正在加载来源与假设…</div>
+  </header>
+
+  <section class="toolbar">
+    <div class="node-tabs" id="node-tabs"></div>
+    <p class="live-flag" id="live-flag">数据流状态未知</p>
+  </section>
+
+  <main>
+    <section class="cards" id="cards"></section>
+
+    <section class="layout">
+      <div>
+        <h2>时间序列</h2>
+        <p class="hint">默认显示该节点最近 24 小时的模拟读数。横轴时间为 Asia/Shanghai。这不是实机曲线。</p>
+        <canvas id="chart-env" width="900" height="260" aria-label="温度与湿度"></canvas>
+        <canvas id="chart-air" width="900" height="260" aria-label="等效二氧化碳与照度"></canvas>
+      </div>
+      <aside>
+        <h2>简单分析</h2>
+        <div id="summary-box" class="panel">正在计算…</div>
+        <h2>告警 / 提示</h2>
+        <ul id="alerts" class="alerts"></ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <p>串口协议与 Atlas 模拟 USART 样本一致（key=value），见 <code>firmware/include/helix_env_protocol.h</code>。板型完整型号为推断。模拟已可在本机打开；实机未验证。</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
