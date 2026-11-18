@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>城市轨道交通时空数据 · 样品原型</title>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-text">
+      <p class="eyebrow">兰大数据科学与大数据技术 · 选题 A 样品（三条候选之一，非定题）</p>
+      <h1>公开城市轨道交通时空数据的交互式可视化与分析</h1>
+      <p class="disclaimer" id="disclaimer">这是选题 A 的样品原型，三条候选之一，不是已确认的毕设题目。</p>
+    </div>
+    <div class="source-box" id="source-box">
+      正在加载数据来源与许可证…
+    </div>
+  </header>
+
+  <section class="toolbar" aria-label="筛选与视图">
+    <div class="line-filters" id="line-filters"></div>
+    <div class="view-tabs" role="tablist">
+      <button type="button" class="tab is-active" data-view="map" role="tab" aria-selected="true">线路地图</button>
+      <button type="button" class="tab" data-view="list" role="tab" aria-selected="false">车站列表</button>
+      <button type="button" class="tab" data-view="analysis" role="tab" aria-selected="false">简单分析</button>
+    </div>
+  </section>
+
+  <main class="layout">
+    <section class="main-pane">
+      <div id="view-map" class="view is-active">
+        <p class="view-hint" id="map-hint">无底图（不依赖在线瓦片，便于离线打开）。点击车站查看当天到站时刻。若地图脚本未加载，请改用「车站列表」。</p>
+        <div id="map" role="application" aria-label="线路与车站地图"></div>
+      </div>
+
+      <div id="view-list" class="view">
+        <div class="list-toolbar">
+          <label>按站名筛选
+            <input type="search" id="station-search" placeholder="例如 Embarcadero 或 站名关键字" autocomplete="off">
+          </label>
+        </div>
+        <div class="table-wrap">
+          <table class="station-table" id="station-table">
+            <thead>
+              <tr>
+                <th>车站</th>
+                <th>线路</th>
+                <th>服务时段</th>
+                <th>当天到站次数</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="view-analysis" class="view">
+        <p class="view-hint">以下数字均来自本样品选定的一个服务日，按 GTFS 计划时刻统计，不是实时运营数据。</p>
+        <h2>各线班次数与行车间隔</h2>
+        <canvas id="trip-chart" width="900" height="280" aria-label="各线班次数柱状图"></canvas>
+        <div class="table-wrap">
+          <table class="station-table" id="headway-table">
+            <thead>
+              <tr>
+                <th>线路</th>
+                <th>方向 / 路段</th>
+                <th>班次数</th>
+                <th>首末发车</th>
+                <th>中位间隔（分钟）</th>
+                <th>平均间隔（分钟）</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <h2>时空图（车站顺序 × 时刻）</h2>
+        <div class="spacetime-controls">
+          <label>选择线路与方向
+            <select id="spacetime-select"></select>
+          </label>
+        </div>
+        <p class="view-hint">每一条折线是一趟车。站序取该方向当天停站最多的一趟作为参考，短交路在未停靠的车站处断开。这是示意图，不是官方运行图。</p>
+        <div class="spacetime-wrap">
+          <canvas id="spacetime-chart" width="1000" height="560" aria-label="时空图"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <aside class="side-pane" id="side-pane">
+      <h2 id="station-title">选择一个车站</h2>
+      <p id="station-meta" class="side-meta">在地图或列表中点击车站，查看该服务日的计划到站时刻与服务时段。</p>
+      <div id="station-body" hidden>
+        <p id="station-hours"></p>
+        <div id="station-line-filters" class="mini-filters"></div>
+        <div class="table-wrap arrivals-wrap">
+          <table class="station-table" id="arrivals-table">
+            <thead>
+              <tr>
+                <th>时刻</th>
+                <th>线路</th>
+                <th>方向 / 车次标识</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <p>数据来源与许可证见页首。本页不使用官方商标或官方系统图。Leaflet 已随本目录一并落地，地图不加载在线底图。</p>
+  </footer>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

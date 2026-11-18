@@ -1,0 +1,6 @@
+Leaflet 1.9.4
+来源：https://unpkg.com/leaflet@1.9.4/dist/
+许可证：BSD-2-Clause（见 Leaflet 项目 https://github.com/Leaflet/Leaflet）
+下载时间（Asia/Shanghai）：2026-11-11 01:43
+落地目的：页面不依赖 CDN；地图不加载在线底图瓦片，以便离线仍可显示线路与车站。
+若 Leaflet 脚本缺失，页面的车站列表与到站时刻、分析表仍可使用。

@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order
+7,MTA NYCT,7,Flushing Local,"Trains operate between Flushing-Main St, Queens, and 34 St-Hudson Yards, Manhattan, at all times.",1,https://www.mta.info/schedules/subway/7-train,9A38A1,FFFFFF,27
+7X,MTA NYCT,7X,Flushing Express,"Trains operate between Flushing-Main St, Queens, and 34 St-Hudson Yards, Manhattan, weekday mornings express toward Manhattan. Weekday afternoons and evenings, these trains operate express toward Queens.",1,https://www.mta.info/schedules/subway/7-train,9A38A1,FFFFFF,28

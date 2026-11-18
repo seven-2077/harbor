@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <title>时刻的坡度 — 方向样品海报（非已定毕业设计题目）</title>
+  <link rel="stylesheet" href="assets/poster.css">
+</head>
+<body>
+  <article class="poster" id="poster">
+    <header class="mast">
+      <div>
+        <div class="kicker">
+          <span>标本 Lumen · 2026.11.11</span>
+          <span class="badge">方向样品 · 不是已确定的毕业设计题目</span>
+        </div>
+        <h1>时刻的坡度  <em>A Marey chart</em></h1>
+        <p class="lede">用马雷图阅读一条城市轨道在单一营运日里的运行结构。沿「公开轨道交通时空数据的交互式可视化与分析」做成的样品，不是已经定下的毕设题目，也不代表唯一候选。</p>
+      </div>
+      <div class="meta">
+        <div class="line-id">7 Flushing Local / 7X Express</div>
+        <div>MTA New York City Transit · 官方静态 GTFS</div>
+        <div>表定营运日 <b>2026-11-11 周三</b></div>
+        <div>service_id Weekday · America/New_York</div>
+        <div>进站量小样本：2026-08-03 至 08-09</div>
+        <div>本页不是 MTA 产品，不使用其商标与线路符号</div>
+      </div>
+    </header>
+
+    <nav class="frieze" aria-label="数据链路">
+      <div class="step"><span class="n">01</span><span class="lab">采集</span><span class="desc">官方 GTFS 与公开进站量</span></div>
+      <div class="step"><span class="n">02</span><span class="lab">存储</span><span class="desc">单线单日时刻表 · 七日小样本</span></div>
+      <div class="step"><span class="n">03</span><span class="lab">计算</span><span class="desc">路径 · 密度 · 间隔 · 表定时分</span></div>
+      <div class="step"><span class="n">04</span><span class="lab">分析</span><span class="desc">高峰快车 · 站序差异 · 过河斜率</span></div>
+      <div class="step"><span class="n">05</span><span class="lab">价值</span><span class="desc">把时刻表读成运行结构</span></div>
+    </nav>
+
+    <section class="stage">
+      <p class="chart-caption">
+        <strong>马雷图 · 表定时刻 · 2026-11-11。</strong>
+        横轴为服务日时钟。纵轴为车站在完整 Local 线形 shape 7..S97R 上的投影里程，Flushing-Main St 为 0。
+        钠灯色开往 34 St-Hudson Yards，冷白光开往 Flushing-Main St 或 Mets-Willets Point；快车（7X）线条略重。
+        标 † 的 52 St、69 St 在东向 Local 中未被写入，按原文绘制。浅带为设计用的早、晚时段示意与东河区段，不是官方定义。
+      </p>
+      <div class="chart-frame">
+        <svg id="marey" xmlns="http://www.w3.org/2000/svg" aria-label="7 号线单一营运日马雷图"></svg>
+      </div>
+    </section>
+
+    <section class="findings">
+      <div>
+        <h2>快车窗口 · 由时刻表算出</h2>
+        <p>西向快车只出现在 <b>06:15–09:49</b>，东向快车出现在 <b>14:46–21:40</b>。这是 7X 在本营运日的始发窗口，不是推断的「高峰客流」。</p>
+      </div>
+      <div>
+        <h2>表定全程 · 两端都停的车次</h2>
+        <p>Flushing 与 Hudson Yards 都停的 Local，表定旅行时分中位数是 <b>38 分</b>。西向快车中位数同为 38 分（本表仍停 18 站）；东向快车中位数 <b>36 分</b>。</p>
+      </div>
+      <div>
+        <h2>进站量 · 日期不同</h2>
+        <p>辅图所用官方进站量是 <b>2026-08-03 至 08-09</b> 的车站综合体数据，不是 11 月 11 日的客流。含其他线路的综合体不能记作 7 号线独有。</p>
+      </div>
+    </section>
+
+    <footer class="colo">
+      <div>
+        <h3>来源与许可证</h3>
+        时刻表：MTA New York City Transit 官方 Regular Subway GTFS（feed_version 20261028-fall-2026-pick-with-long-term-supplements），由 Atlas 获取并截取 7 / 7X、Weekday、营运日 2026-11-11。许可证：MTA data feed terms and conditions。进站量：MTA 数据经 data.ny.gov 发布（Beginning 2025，5wq4-mkjj），本周汇总由 Atlas 从 transitlab.nyc 的 2026-08 月度文件派生（08-03 至 08-09）。获取记录日期 2026-11-11（Asia/Shanghai）。详见 README 与 data/SOURCE.md。
+      </div>
+      <div>
+        <h3>事实 · 由数据算出</h3>
+        642 趟 Weekday 车次、路径与停站水平段、7X 窗口、两端表定时分、东向 Local 未写入 52 St / 69 St，均来自 GTFS 原文。进站量来自官方综合体小时合计，仅覆盖 8 月样本日期。
+      </div>
+      <div>
+        <h3>推断 · 设计解读</h3>
+        东河带与 6:30–9:30、16:00–19:30 薄纱是设计示意。纵轴里程由 shapes 投影计算，不是轨旁里程碑。中文标题为样品用语，不是官方译名，也不是已定毕设题目。数据按 as-is 提供，不声称准确、完整或及时。
+      </div>
+    </footer>
+  </article>
+  <script src="data/timetable.js"></script>
+  <script src="assets/render.js"></script>
+  <script src="assets/poster.js"></script>
+</body>
+</html>
