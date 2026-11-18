@@ -11,3 +11,10 @@
 - 可稍后烧录的固件骨架在 `helix-sensing/firmware/`。方法与数据说明：`atlas/选题BC-方法与数据说明.md`。候选说明：`folio/候选方向.md`。
 
 对照用的兰州气象与空气质量来自 Open-Meteo（CC BY 4.0），许可证见 `atlas/来源与许可证/`。
+
+## 项目结构
+
+- `folio/` 候选方向、规范与时间节点、相近文献说明
+- `atlas/` 方法与数据说明、STM32 模拟采样与 Open-Meteo 小样本、许可证摘录
+- `helix-sensing/` 采集接入原型：`app/` 页面，`scripts/` 启动与模拟流，`firmware/` 可烧录骨架，`data/` 模拟数据
+- `lumen/` 可视化页面与海报

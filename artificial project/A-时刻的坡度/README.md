@@ -11,3 +11,10 @@
 - 数据小样本与许可证：`atlas/`。候选说明：`folio/候选方向.md`。
 
 数据来自公开的 MTA GTFS 与客流样本，许可证见 `atlas/来源与许可证/`。
+
+## 项目结构
+
+- `folio/` 候选方向、规范与时间节点、相近文献说明
+- `atlas/` 数据小样本与许可证（`samples/` 为 MTA GTFS 与客流样本，`来源与许可证/` 为条款摘录）
+- `helix/` 最小可运行原型：`app/` 为页面与处理后的 JSON，`scripts/` 为数据准备，`data/processed/` 为处理结果；原始 GTFS 大包在 `atlas/samples/`，未再复制一份
+- `lumen/` 可视化成品与海报（`index.html`、`poster.png` / `poster.pdf`、`assets/`、`data/`、`fonts/`）
